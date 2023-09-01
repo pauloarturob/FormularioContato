@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Formulario de contato</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1 id="title">Formulario de contato</h1>
+    </div>
+    <section>
+        <div class="left">
+            <div class="form">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="name" placeholder="Didite seu nome" required autocomplete="off">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="Didite seu e-mail" required autocomplete="off">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="message" required id="message" cols="10" rows="2"
+                        placeholder="Digite aqui sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="accessKey" value="c9673952-402f-4185-be76-345a117b12df">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <img style="width: 580px;" src="Assets/img/Contato.png" alt="">
+        </div>
+    </section>
+    <footer><br><br><br>
+        <div class="creditos">
+            <h2 style="font-size: 16px;" class="credit">Criado por <i class="fa fa-heart pulse" style="color: red;"></i>
+                by <a href="https://www.linkedin.com/in/pauloarturpc/" target="_blank"> Paulo Artur</a></h2>
+        </div>
+    </footer>
+
+</body>
+
+</html>
